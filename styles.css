@@ -1,0 +1,87 @@
+* {
+    transition: all 800ms ease-in-out;
+}
+html {
+    height: 100%
+}
+body {
+    opacity: 0%;
+    overflow-y: hidden;
+}
+html, body, .fullheight {
+    min-height: 100% !important;
+    height: 100%;
+}
+.darkerthanbg {
+    background-color: purple;
+}
+button {
+
+}
+#nav {
+    height: 1000px;
+    width: 100px;
+    background-color: rgb(45, 44, 44);
+    position: fixed;
+}
+#nav h1 {
+    font-size: x-large;
+}
+#more {
+    top:60%;
+    position: relative;
+}
+#nav button {
+    background-color: inherit;
+    border: none;
+    outline:none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: larger;
+    font-style: bolder;
+    width: 100%;
+}
+button:hover {
+    cursor: pointer;
+}
+button img {
+    height: 50px;
+    width: 50px;
+}
+#quick-intro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: inherit;
+}
+
+#quick-intro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+}
+#quick-intro button,
+#quick-intro h1 {
+    height: 50px;
+    position: relative;
+    top: 75px;
+}
+#about-me {
+    position: relative;
+    top: 1000px;
+    text-align: center;
+}
+#dcserver {
+    position: relative;
+    top: 1700px;
+    text-align: center;
+}
+footer {
+    background-color: greenyellow;
+}
+#vieweddiv {
+    position: relative;
+    top: 200px;
+}
