@@ -1,5 +1,5 @@
 * {
-    transition: all 800ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 html {
     height: 100%
@@ -43,6 +43,9 @@ button {
     font-style: bolder;
     width: 100%;
 }
+#nav button:hover {
+    background-color: rgb(39, 39, 39);
+}
 button:hover {
     cursor: pointer;
 }
@@ -79,7 +82,9 @@ button img {
     text-align: center;
 }
 footer {
-    background-color: greenyellow;
+    position: relative;
+    top: 3000px;
+    text-align: center;
 }
 #vieweddiv {
     position: relative;
